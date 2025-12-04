@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Ice Cream</title>
+
+  
+  <link rel="stylesheet" href="css/style.css">
+  
+  <link rel="stylesheet" href="css/animations.css">
+  
+  <link rel="stylesheet" href="css/responsive.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <header>
+    <nav class="navbar">
+      <p class="principal-titulo">Ice Cream</p>
+      <ul class="menu">
+        <li><a href="#home">Início</a></li>
+        <li><a href="#sabores">Sabores</a></li>
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+      <button id="menu-toggle">☰</button>
+    </nav>
+  </header>
+
+ 
+  <main>
+
+    
+    <section id="home" class="hero">
+      <h1>O sabor que derrete o coração 🍦</h1>
+      <p>Descubra o melhor sorvete artesanal da cidade.</p>
+      <button id="btn-explorar">Explorar Sabores</button>
+    </section>
+
+    
+    <section id="sabores" class="sabores">
+      <h2>Nossos Sabores</h2>
+      <div id="lista-sabores" class="cards-container">
+       
+      </div>
+    </section>
+
+   
+    <section id="sobre" class="sobre">
+      <h2>Sobre Nós</h2>
+      <p>Na Ice Cream, acreditamos que um bom sorvete é muito mais do que uma sobremesa — é uma experiência. Por isso, unimos ingredientes selecionados, receitas artesanais e muito carinho para criar sabores que despertam memórias, sorrisos e aquele gostinho de “quero mais”.
+
+Somos apaixonados pelo que fazemos e buscamos sempre inovar, trazendo combinações clássicas e criações exclusivas que agradam todos os paladares. Do tradicional ao ousado, cada bola de sorvete é preparada com qualidade, frescor e autenticidade.
+
+Mais do que uma sorveteria, a Ice Cream é um lugar onde cada detalhe importa. Seja para um momento especial, uma pausa no dia a dia ou simplesmente para adoçar a vida — estamos aqui para tornar sua experiência inesquecível.</p>
+    </section>
+
+    
+    <section id="contato" class="contato">
+      <h2 class="title-footer">Contato</h2>
+      <form id="form-contato">
+        <input type="text" placeholder="Seu nome" required>
+        <input type="email" placeholder="Seu email" required>
+        <textarea placeholder="Mensagem"></textarea>
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
+
+  </main>
+
+  
+  <footer>
+    <p>© 2025 Sorveteria Ice Cream — Feito por Alef Veiga</p>
+  </footer>
+
+ <div id="popup" class="popup">
+  <div class="popup-content">
+    <h2>Bem-vindo à Ice Cream!</h2>
+    <p>Aproveite nossos sabores especiais feitos com carinho 🍨💖</p>
+    <button id="close-popup">Fechar</button>
+  </div>
+</div>
+
+  <script src="js/api.js"></script>
+  <script src="js/events.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

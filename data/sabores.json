@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "nome": "baunilha premium",
+    "descricao": "Feito com cacau 70% importado e textura cremosa irresistível.",
+    "preco": 12.90,
+    "imagem": "assets/baunilha-premium.jpg"
+  },
+  {
+    "id": 2,
+    "nome": "cookies cream",
+    "descricao": "Combinação clássica e refrescante de morango natural e leite condensado artesanal.",
+    "preco": 11.50,
+    "imagem": "assets/cookies-cream.jpg"
+  },
+  {
+    "id": 3,
+    "nome": "chocolate belga",
+    "descricao": "Sabor suave e aveludado com favas naturais de baunilha.",
+    "preco": 10.90,
+    "imagem": "assets/chocolate-belga.jpg"
+  },
+  {
+    "id": 4,
+    "nome": "morango leite condensado",
+    "descricao": "Sorvete de creme com pedaços crocantes de biscoito de chocolate.",
+    "preco": 13.50,
+    "imagem": "assets/morango-leite-condensado.jpg"
+  }
+]
